@@ -45,8 +45,8 @@ class VideoThread(QThread):
         is_cuda = len(sys.argv) > 1 and sys.argv[1] == "cuda"
 
         # 目标检测模型和reid模型
-        root_path = os.path.dirname(os.getcwd())  # 项目根目录
-
+        # root_path = os.path.dirname(os.getcwd())  # 项目根目录
+        root_path = os.getcwd()
         print(root_path)
         yolov5_path = osp.join(root_path, 'config_files', 'yolov5s.onnx')
         reid_path = osp.join(root_path, 'config_files', 'reid_resnet50.onnx')
