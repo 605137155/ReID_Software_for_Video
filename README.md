@@ -1,9 +1,9 @@
 # ReID_Software_for_Video
 This is the implement of simple ReID software, which require cv2 and pyqt5.
 
-Please install cv2 and pyqt5 by:
+Please install opencv-python and pyqt5 by:
 
-      pip install cv2
+      pip install opencv-python
       pip install pyqt5
 
 
@@ -18,7 +18,7 @@ You can also prepare your own ObjectDection and Feature Compare module .onnx fil
 
 
 
-库需求：cv2和pyqt5
+库需求：opencv-python和pyqt5
 
 
 运行方法： 运行mywindow.py
