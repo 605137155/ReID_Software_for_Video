@@ -1,5 +1,5 @@
 # ReID_Software_for_Video
-This is the implement of simple ReID software, which require cv2 and pyqt5.
+This is the implement of simple ReID software, which require opencv-python and pyqt5.
 
 Please install opencv-python and pyqt5 by:
 
