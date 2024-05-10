@@ -1,4 +1,4 @@
-# ReID_Software_for_Video
+# ReID_Software_for_Video[行人重识别pyqt软件]
 This is the implement of simple ReID software, which require opencv-python and pyqt5.
 
 Please install opencv-python and pyqt5 by:
