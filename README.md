@@ -3,7 +3,7 @@ This is the implement of simple ReID software, which require opencv-python and p
 
 Please install opencv-python and pyqt5 by:
 
-      pip install opencv-python
+      pip install opencv-python>=4.5.4.60
       pip install pyqt5
 
 
@@ -18,7 +18,7 @@ You can also prepare your own ObjectDection and Feature Compare module .onnx fil
 
 
 
-库需求：opencv-python和pyqt5
+库需求：opencv-python(4.5.4.60)和pyqt5
 
 
 运行方法： 运行mywindow.py
